@@ -455,15 +455,17 @@ color: transparent;
     .second .perform img{height: 300px; width: 500px;}
     .para1{font-size: 2.5rem;}
     .img img{height: 250px; width: 400px;}
+    body{overflow-x: hidden;}
   }
   @media screen and (max-width:992px){
+    body{overflow-x: hidden;}
     .price-detail{
         width: 100%;
     }
     .section5 .img img{height: 250px; width: 400px;}
-  }
     .perform img{
       height: 500px;
       width: 700px;
     }
     .img img{height: 450px; width: 750px;}
+  }

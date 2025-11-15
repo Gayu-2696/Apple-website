@@ -404,6 +404,7 @@ ul li span{
     padding-right: 0.5rem;
 }
 @media (max-width:768px) {
+  body{overflow-x: hidden;}
     .foot{
        width: 100%; 
     }  

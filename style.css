@@ -345,6 +345,7 @@ color: white;
     color: #424245;
 }
 @media (max-width:768px) {
+    .body{overflow-x: hidden;}
     .navbar{
         display: none;
     }
@@ -357,7 +358,7 @@ color: white;
         /* overflow: hidden; */
     }
     .product1{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .foot{
        width: 100%; 

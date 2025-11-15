@@ -356,8 +356,10 @@ color: transparent;
   .button{
     margin-left: 45%;
   }
+  body{overflow-x: hidden;}
 }
  @media (max-width:768px) {
+  body{overflow-x: hidden;}
     .options{
         grid-template-columns: repeat(3,1fr);
     }  
